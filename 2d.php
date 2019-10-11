@@ -1,5 +1,13 @@
 <?php
-for ($j=1;$j<=10;$j++)
-for ($i=1;$i<=10;$i=$i+1){
-echo $j.'x'.$i.'='.($j*$i).'<br>';
+function calcular($a,$b){
+/*
+$a=5;
+$b=6;
+*/
+echo '+ : '.($a+$b).'<br>';
+echo '- : '.($a-$b).'<br>';
+echo '* :'.($a*$b).'<br>';
+if($b!=0) echo '/ :'.($a/$b).'<br>';
 }
+calcular(8,0);
+calcular(8,2);
